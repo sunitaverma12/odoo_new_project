@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+    <menuitem id="menu_main_hospital"
+              name="Hospital"/>
+
+     <menuitem id="menu_patient_master"
+              name="patient detail"
+               parent="menu_main_hospital"/>
+
+    <menuitem id="menu_submenu"
+              name="patient"
+               parent="menu_patient_master"
+               action ="om_hospital.hospital_patient_act"/>
+
+
+    <menuitem id="menu_appointment"
+              name="Appointment"
+              parent="menu_main_hospital"/>
+
+     <menuitem id="menu_cancel_appointment"
+              name="appointment cancel"
+               parent="menu_appointment"
+               action ="cancel_appointment_act"/>
+
+    <menuitem id="menu_hospital_appointment"
+              name="appointment patient"
+               parent="menu_appointment"
+               action ="hospital_appointment_act"/>
+
+</odoo>
