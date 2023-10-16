@@ -12,7 +12,7 @@
     "data": [
         "views/ir_mail_server_views.xml",
         "views/res_config_settings_views.xml",
-        "views/templates.xml",
+        "views/sale_order_views.xml",
     ],
     "auto_install": False,
     "license": "LGPL-3",

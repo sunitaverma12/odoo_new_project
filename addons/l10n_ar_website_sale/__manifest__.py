@@ -12,7 +12,7 @@
     ],
     'data': [
         'data/ir_model_fields.xml',
-        'views/templates.xml',
+        'views/sale_order_views.xml',
     ],
     'demo': [
         'demo/website_demo.xml',

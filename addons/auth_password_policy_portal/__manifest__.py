@@ -3,7 +3,7 @@
     'depends': ['auth_password_policy', 'portal'],
     'category': 'Tools',
     'auto_install': True,
-    'data': ['views/templates.xml'],
+    'data': ['views/sale_order_views.xml'],
     'assets': {
         'web.assets_frontend': [
             'auth_password_policy_portal/static/**/*',

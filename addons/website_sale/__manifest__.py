@@ -24,7 +24,7 @@
         'views/sale_report_views.xml',
         'views/sale_order_views.xml',
         'views/crm_team_views.xml',
-        'views/templates.xml',
+        'views/sale_order_views.xml',
         'views/snippets/snippets.xml',
         'views/snippets/s_dynamic_snippet_products.xml',
         'views/res_config_settings_views.xml',

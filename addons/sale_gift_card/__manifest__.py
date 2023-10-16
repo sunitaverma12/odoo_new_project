@@ -13,7 +13,7 @@
         'data/gift_card_data.xml',
         'data/mail_template_data.xml',
         'views/sale_order_view.xml',
-        'views/templates.xml',
+        'views/sale_order_views.xml',
         'security/ir.model.access.csv',
     ],
     'license': 'LGPL-3',

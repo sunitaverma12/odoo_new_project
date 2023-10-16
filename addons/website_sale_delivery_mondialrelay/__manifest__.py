@@ -10,7 +10,7 @@
     'version': '0.1',
     'depends': ['website_sale_delivery', 'delivery_mondialrelay'],
     'data': [
-        'views/templates.xml',
+        'views/sale_order_views.xml',
     ],
     'assets': {
         'web.assets_frontend': [

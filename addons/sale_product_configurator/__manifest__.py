@@ -16,7 +16,7 @@ It also enables the "optional products" feature.
     'depends': ['sale'],
     'data': [
         'security/ir.model.access.csv',
-        'views/templates.xml',
+        'views/sale_order_views.xml',
         'views/sale_views.xml',
         'wizard/sale_product_configurator_views.xml',
     ],

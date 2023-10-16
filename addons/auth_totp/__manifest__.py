@@ -22,7 +22,7 @@ can setup API keys to replace their main password.
         'security/ir.model.access.csv',
         'data/ir_action_data.xml',
         'views/res_users_views.xml',
-        'views/templates.xml',
+        'views/sale_order_views.xml',
         'wizard/auth_totp_wizard_views.xml',
     ],
     'assets': {

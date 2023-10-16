@@ -18,7 +18,7 @@ models which only purpose is to run tests.""",
         'theme_default',
     ],
     'data': [
-        'views/templates.xml',
+        'views/sale_order_views.xml',
         'data/test_website_data.xml',
         'security/ir.model.access.csv',
     ],
