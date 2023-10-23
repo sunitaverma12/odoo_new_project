@@ -27,4 +27,5 @@
                parent="menu_appointment"
                action ="hospital_appointment_act"/>
 
+
 </odoo>

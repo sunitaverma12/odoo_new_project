@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<odoo>
+
+     <record id="view_doctor_detail_tree" model="ir.ui.view">
+        <field name="name">doctor.details.tree</field>
+        <field name="model">doctor.details</field>
+
+        <field name="arch" type="xml">
+            <tree string="patient tree">
+               <field name="name" />
+                <field name="gender"/>
+                <field name="mobile"/>
+                <field name="degree"/>
+                <field name="specialization"/>
+
+            </tree>
+        </field>
+     </record>
+
+    <record id="view_doctor_detail_form" model="ir.ui.view">
+        <field name="name"> doctor.details.form</field>
+        <field name="model">doctor.details</field>
+
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="name" />
+                            <field name="gender"/>
+                            <field name="degree"/>
+                            <field name="specialization"/>
+                        </group>
+                        <group>
+                            <field name="mobile"/>
+                            <field name="bio"/>
+                            <field name="date_of_birth"/>
+
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="doctor_detail_act" model='ir.actions.act_window'>
+        <field name="name"> patients</field>
+        <field name="res_model">doctor.details</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p  class="o_view_nocontent_smiling_face">
+                create your first patient
+            </p>
+        </field>
+    </record>
+
+</odoo>
+
